@@ -8,13 +8,13 @@ import 'main_model.dart';
 
 MainModel get defaultModel => const MainModel(success: true, data: null, message: null, error: ErrorModel(message: null));
 
-class DioClient {
-  static final DioClient _instance = DioClient._internal();
+class DioClientCustom {
+  static final DioClientCustom _instance = DioClientCustom._internal();
   late Dio _dio;
 
-  DioClient._internal();
+  DioClientCustom._internal();
 
-  factory DioClient() {
+  factory DioClientCustom() {
     _instance._dio =
         Dio()
           ..options.baseUrl = ""
