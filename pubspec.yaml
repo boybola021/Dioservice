@@ -2,7 +2,7 @@ name: dio_service
 description: "A simple Dio wrapper with interceptor and dynamic baseUrl support"
 
 
-publish_to: 'none' 
+publish_to: 'none'
 
 
 version: 1.0.0+1
